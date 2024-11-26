@@ -1,0 +1,5 @@
+freeze
+flask
+scikit-learn
+joblib
+gunicorn
