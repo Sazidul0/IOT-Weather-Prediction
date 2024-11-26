@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: IOT-Weather-Prediction
+    env: python
+    region: oregon  # Choose your preferred region
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    autoDeploy: true
+    branch: main  # Branch to deploy from
+    plan: free  # Use free tier
