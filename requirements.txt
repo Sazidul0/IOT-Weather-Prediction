@@ -1,5 +1,5 @@
-freeze
-flask
+Flask
+gunicorn
 scikit-learn
 joblib
-gunicorn
+pandas
